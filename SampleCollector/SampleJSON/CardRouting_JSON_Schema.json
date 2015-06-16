@@ -1,0 +1,93 @@
+{
+    "title": "CardRouting",
+    "type": "object",
+    "properties": {
+        "Actor": {
+            "required": true,
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "DisplayName": {
+                    "required": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "Email": {
+                    "required": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            }
+        },
+        "SendTo": {
+            "required": true,
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "DisplayName": {
+                        "required": true,
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "Email": {
+                        "required": true,
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                }
+            }
+        },
+        "CardId": {
+            "required": true,
+            "type": "string"
+        },
+        "MessageType": {
+            "required": true,
+            "type": "string"
+        },
+        "ActionType": {
+            "required": true,
+            "type": "integer",
+            "enum": [
+                0,
+                1,
+                2,
+                3
+            ]
+        },
+        "Data": {
+            "required": true,
+            "type": [
+                "object",
+                "null"
+            ],
+            "additionalProperties": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            }
+        },
+        "CardDate": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

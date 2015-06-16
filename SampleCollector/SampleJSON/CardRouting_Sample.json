@@ -1,0 +1,20 @@
+{
+    "Actor": {
+        "DisplayName": "John Doe",
+        "Email": "john.doe@sitrion.com"
+    },
+    "SendTo": [
+        {
+            "DisplayName": "Jane Doe",
+            "Email": "jane.doe@sitrion.com"
+        }
+    ],
+    "CardId": "31483b47-2b27-459e-8da4-5c0936534f3a",
+    "MessageType": "MyCard",
+    "ActionType": 1,
+    "Data": {
+        "PurchaseOrderId": "123456789",
+        "Title": "New Purchase Order"
+    },
+    "CardDate": "2015-05-26T13:31:21.2383418Z"
+}
