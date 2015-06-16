@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCollector", "SampleCollector\SampleCollector.csproj", "{14F1A72E-F20F-4037-9EDD-DBC7EA9E1BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONECardPublisher", "ONECardPublisher\ONECardPublisher.csproj", "{CCBEB35E-922A-490D-BA7A-4C4C4E92DD73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleJSON", "SampleJSON", "{FB0D2F94-B434-40AF-A98F-6F20801F6432}"
+	ProjectSection(SolutionItems) = preProject
+		SampleJSON\CardRouting_JSON_Schema.json = SampleJSON\CardRouting_JSON_Schema.json
+		SampleJSON\CardRouting_Sample.json = SampleJSON\CardRouting_Sample.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F1A72E-F20F-4037-9EDD-DBC7EA9E1BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F1A72E-F20F-4037-9EDD-DBC7EA9E1BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F1A72E-F20F-4037-9EDD-DBC7EA9E1BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F1A72E-F20F-4037-9EDD-DBC7EA9E1BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBEB35E-922A-490D-BA7A-4C4C4E92DD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBEB35E-922A-490D-BA7A-4C4C4E92DD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBEB35E-922A-490D-BA7A-4C4C4E92DD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBEB35E-922A-490D-BA7A-4C4C4E92DD73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
